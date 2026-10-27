@@ -1,0 +1,58 @@
+[
+  {
+    "id": "76003151-e174-4f3d-babc-b475323444ae",
+    "title": "React",
+    "content": "state\nprops",
+    "createdAt": "2026-08-20T00:02:14.327Z",
+    "updatedAt": "2026-08-20T00:02:14.327Z"
+  },
+  {
+    "id": "cb86f995-7a64-4f9d-8696-e5ac1c6c6e94",
+    "title": "stackBlitz",
+    "content": "StackBlitz est un IDE (environnement de développement) qui tourne entièrement dans le navigateur, sans rien installer sur ton ordinateur. Sa technologie clé s'appelle WebContainers : elle fait tourner un véritable environnement Node.js à l'intérieur du navigateur en utilisant WebAssembly, ce qui donne l'impression d'un environnement de développement local mais qui démarre en quelques millisecondes et fonctionne même hors ligne",
+    "createdAt": "2026-08-20T00:05:09.146Z",
+    "updatedAt": "2026-08-20T00:37:56.926Z"
+  },
+  {
+    "id": "b0fc5aba-3030-4703-8586-9dd4b4ca7c03",
+    "title": "Railway",
+    "content": "base de donne",
+    "createdAt": "2026-08-20T00:32:45.007Z",
+    "updatedAt": "2026-08-20T09:33:14.530Z"
+  },
+  {
+    "id": "c11ea5c7-45a2-4a46-98b0-91420f563fde",
+    "title": "2 terminal pourqoi?",
+    "content": "terminal1: react/vite : port 5173\n- npm install\n-npm run dev\nresulta ettendu:\nvite ready \nlocal:http://localhost:5173\nterminal 2: backend node.js /express : port 4000\n-cd backend\n-npm install\n-npm start\nresulta ettendu : serveur backend demarre sur http://localhost:4000",
+    "createdAt": "2026-08-20T09:21:43.610Z",
+    "updatedAt": "2026-08-20T09:21:43.610Z"
+  },
+  {
+    "id": "26d3d2cf-b95e-4c90-b266-94d4e5572495",
+    "title": "packge.json",
+    "content": "c'et un fichier de configuration de ton projet node.js\nil i,dique notamment : \n-le nom du projet \n-sa version\n-les dependances\n-les scripts\n-le type de modules utilise\nparce que ton code utilise des bilotheques qui ne sont pas partie de vs code \ndonc les dependances des projet : \n-mysql2\n-dotenv\n-express",
+    "createdAt": "2026-08-20T09:46:06.142Z",
+    "updatedAt": "2026-08-20T09:46:06.142Z"
+  },
+  {
+    "id": "6456fbd3-bcb2-4ba7-b1d5-c3aa3cc0ca7a",
+    "title": ".env",
+    "content": "c'est ici que nous mis les informations de connexion mysql.\npar ce que pour se connecter a mysql node.js doit connaitre:\nou est mysql?\nquel port?\nquel utlisateur?\nquel mot de passe?\nquelle base de donnes?\ndonC sont des configuration secrete",
+    "createdAt": "2026-08-20T09:51:14.843Z",
+    "updatedAt": "2026-08-20T09:57:15.772Z"
+  },
+  {
+    "id": "c7f0a5e1-4f68-49ed-9b3e-bd7d97560619",
+    "title": "MAIS node.js",
+    "content": "NE VA PAS TRANSFORME EN : PROCESS.ENV.mYSQLHOST\ndonc ton sever.js tuavais quelle chose come import \"dotenv/config\"\nceet linge signifie : \nchrge les variables qui se trouvent dans node.js puise les utiliser avec process.envdonc : \nprocess.env.MySQLHOST ==> PEUT RECUPERE : LES CONFIGURATIONS SECRETE",
+    "createdAt": "2026-08-20T09:56:58.002Z",
+    "updatedAt": "2026-08-20T09:56:58.002Z"
+  },
+  {
+    "id": "75829b6c-466e-468a-bdb9-df6fe678cf3c",
+    "title": "BD.JS",
+    "content": "pour centralise la connexion a la bse de donnes \nau lieu de mettre tout laconfiguration Mysql dans chaque route de server.js on cree un fichier specialise :\ndonc iletablir et exprte la conexion avac mysql\ndonc : server .js :\nhttp \nroutes \napi\nrequest\nresponse\net   bd.js  s'occupe de : \nmysql\nconnexion\nrequetes sql",
+    "createdAt": "2026-08-20T10:07:58.242Z",
+    "updatedAt": "2026-08-20T10:07:58.242Z"
+  }
+]
